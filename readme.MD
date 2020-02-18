@@ -68,7 +68,7 @@ Read/examine data as desired using a local mysql client and credentials as speci
 
 Once complete, don't forget to clean up the docker container!
 
-####Limitations/Improvements:
+#### Limitations/Improvements:
 * Dynamically determine field types at runtime
 * Field lengths are set as either 255 characters or the longest length found for that field in the JSON returned by the API endpoint, whichever is longer
 * Fields are treated as either int or string, and don't cater for date/times; we'd need to do some validation/error handling on string formats for the "pub_date" field

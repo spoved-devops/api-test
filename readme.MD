@@ -61,7 +61,7 @@ git clone https://github.com/spoved-devops/api-test.git
 
 Run loader.py:
 ~~~
-python3 loader.py
+python3 api-test/loader.py
 ~~~
 
 Read/examine data as desired using a local mysql client and credentials as specified on the Docker command line

@@ -1,6 +1,6 @@
-###API Interaction Demo
+### API Interaction Demo
 
-####The challenge:
+#### The challenge:
 >*Instructions*
 >We would like you to demonstrate your understanding of writing code to interact with API’s. To demonstrate this, your goal is to write a program which will pull contents from an API endpoint and write it to a database.
 >
@@ -17,7 +17,7 @@
 >*Submitting*
 >* Put your solution in a public Github or Gitlab repo and send a link. Include a clear README with installation instructions.
 
-####Outline Plan
+#### Outline Plan
 * Determine data format
   * Curl to the URL
   * Determine fields/type etc.
@@ -31,7 +31,7 @@
   * Load into DB
 * Look into using an ORM
 
-####Assumptions:
+#### Assumptions:
 * Python3
 * No custom image
 * User/pass for DB specified on docker command line is fine
@@ -41,7 +41,7 @@
 * No need to determine field names/types dynamically at run time
 * System on which the solution will be replicated has Docker available
 
-####Instructions
+#### Instructions
 Install PIP, setuptools, Orator and a MySQL client for Python3:
 ~~~
 sudo apt install python3-pip

@@ -76,4 +76,4 @@ Once complete, don't forget to clean up the docker container!
 * Could use a custom Docker image with the python script embedded
 * No exception handling
 
-I rejected the option of using a standard MySQL image and using a bind mount/volume with custom command as it wouldn't just be a case of running the python script - we'd need to get pip, setuptools, orator and a Python MySQL client up and running as well, all from that custom command/script/mount.  For a more self-container/re-usable solution, I'd go for a customer Docker image with the scripts/tools built-in.
+I rejected the option of using a standard MySQL image and using a bind mount/volume with custom command as it wouldn't just be a case of running the python script - we'd need to get pip, setuptools, orator and a Python MySQL client up and running as well, all from that custom command/script/mount.  For a more self-contained/re-usable solution, I'd go for a custom Docker image with the scripts/tools built-in.

@@ -1,4 +1,4 @@
-### API Interaction Demo[![CircleCI](https://circleci.com/gh/spoved-devops/api-test.svg?style=svg)](https://circleci.com/gh/spoved-devops/api-test)
+### API Interaction Demo   [![CircleCI](https://circleci.com/gh/spoved-devops/api-test.svg?style=svg)](https://circleci.com/gh/spoved-devops/api-test)
 
 #### The challenge:
 >*Instructions*
